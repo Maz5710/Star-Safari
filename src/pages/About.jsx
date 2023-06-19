@@ -1,10 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
-import Telescope from '/assets/about-telescope.png'
 import Educators from '/assets/about-hariandsam.png'
 
 const About = () => {
   return (
+<>
+<Helmet>
+      <title>About page</title>
+      <meta name="About Star Safari" content="Star Safari details" />
+    </Helmet>
+
     <div>
         <div id='hero-sub' className="hero-about">
           <div className="hero-content">
@@ -54,10 +60,11 @@ const About = () => {
               <p>Hari  is a TEDx featured astrobiologist, has done an internship at NASA Ames, trained for Mars as an analog astronaut and established the New Zealand Astrobiology Network.</p><br />
               <h3>Samuel  Leske - Space Sciences Educator</h3>
               <p>Sam loved space since he was a kid and enjoyed getting closer to it as an airforce pilot. He is currently studying for a Masters in Astrophysics.</p><br />
-            </div>
-
-        
+            </div>        
     </div>
+</>
+
+   
 
     
 

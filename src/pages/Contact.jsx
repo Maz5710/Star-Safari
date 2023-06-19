@@ -1,10 +1,15 @@
 import { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 const formEndpoint = import.meta.env.VITE_APP_WP_API_FORM_ENDPOINT
 
 const Contact = () => {
   return (
     <>
+        <Helmet>
+          <title>Contact page</title>
+            <meta name="Star Safari Contact us" content="Contact us information" />
+        </Helmet>
       <div id='hero-sub' className="hero-contact">
           <div className="hero-content">
               <h1>Contact us</h1>
@@ -44,14 +49,12 @@ const Contact = () => {
       </div>
 
       {/* Message section  */}
-      <div className="container">
-        <div id="contact-container" >    
+      <div id="contact-container" className="container">
+         <div>    
             <h3>Message us </h3>
             <ContactForm/>
-            </div>
-          <div>
-        </div>
-    </div>
+          </div>
+      </div>
     </>
   )
 }
@@ -155,5 +158,6 @@ const ContactForm = () => {
     </>
   )
 }
+
 
 export default Contact

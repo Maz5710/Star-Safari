@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Helmet }  from 'react-helmet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
@@ -57,6 +58,10 @@ const Home = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Home page</title>
+            <meta name="Star Safari Products" content="Book Star Safari tours" />
+        </Helmet>
         <div>
             <div className="hero">
                 <div className="hero-content">

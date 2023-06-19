@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Helmet } from 'react-helmet'
 
 const baseUrl = import.meta.env.VITE_WP_API_BASEURL
 
@@ -50,6 +51,11 @@ const Learn = () => {
   )
 }
   return (
+<>
+<Helmet>
+    <title>Learn page</title>
+    <meta name="Star Safari Articles" content="Articles from Star Safari" />
+</Helmet>
     <div>
         <div id='hero-sub' className="hero-learn">
           <div className="hero-content">
@@ -67,11 +73,11 @@ const Learn = () => {
             <h2>See our latest articles</h2><br></br>
             <div id="learnsCont">
             {loading ? <p id='loading'>Chasing shooting stars...</p> : <Learns learns={learns}/>}
-
           </div>      
       </div>
-
     </div>
+</>
+
   )
 }
 
