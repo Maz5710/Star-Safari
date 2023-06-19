@@ -170,6 +170,10 @@ margin-right: auto;
   background-image: url('/assets/hero-5.png');
 }
 
+.hero-shop {
+  background-image: url('/assets/hero-6.png');
+}
+
 .hero-content {
   text-align: center;
   color: #EEEBEE;

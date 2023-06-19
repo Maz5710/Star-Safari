@@ -52,7 +52,7 @@ const Learn = () => {
 }
   return (
 <>
-<Helmet>
+  <Helmet>
     <title>Learn page</title>
     <meta name="Star Safari Articles" content="Articles from Star Safari" />
 </Helmet>

@@ -6,7 +6,7 @@ import Educators from '/assets/about-hariandsam.png'
 const About = () => {
   return (
 <>
-<Helmet>
+    <Helmet>
       <title>About page</title>
       <meta name="About Star Safari" content="Star Safari details" />
     </Helmet>
