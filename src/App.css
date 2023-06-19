@@ -305,7 +305,6 @@ button:hover {
   border-radius: 10px;
   border-color: #EEEBEE;
   display: flex;
-  height: 600px;
   flex-wrap: wrap;
   padding: 10px;
   margin-left: 30px;
@@ -407,7 +406,6 @@ text-align: left;
   border-radius: 10px;
   border-color: #EEEBEE;
   display: flex;
-  height: 600px;
   flex-wrap: wrap;
   padding: 10px;
   margin-left: 30px;
@@ -530,12 +528,13 @@ iframe {
 
 /* Footer */
 #footer {
+
   display: flex;
   flex-direction: column;
   min-height: 20vh;
   background: #010106;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 .menu ul {

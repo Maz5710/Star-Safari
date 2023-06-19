@@ -57,7 +57,7 @@ const Home = () => {
     }
 
     return (
-        <>
+    <>
         <Helmet>
             <title>Home page</title>
             <meta name="Star Safari Products" content="Book Star Safari tours" />
@@ -70,11 +70,13 @@ const Home = () => {
                     <button id='hero-button'>BOOK <br/>YOUR EXPERIENCE <br /> NOW</button>
                 </div>
             </div>
+        </div>      
 
-            <div className='feedback'>
+
+        <div className='feedback'>
             <h2>Feedback</h2><br></br>
                 <p><span id='left-quote'><FontAwesomeIcon icon={faQuoteLeft} /></span> Thanks Sam and Hari for creating an extraordinary place of learning! Discovered our Goldilocks planet, explored gravity, tides, Big Bang, galaxies, nebulae, ancient civilizations. Your passion sparked a fire in me. Grateful for this journey!<span id='right-quote'><FontAwesomeIcon icon={faQuoteRight} /></span></p>
-            </div>
+        </div>
 
             <div>
                 <hr className='horizontal-line'/>
@@ -93,11 +95,8 @@ const Home = () => {
                     </div>
                     </div>
                 </div>
-            </div>
-
-        </div>          
-                
-        </>
+            </div>                    
+    </>
         )
     }
 
