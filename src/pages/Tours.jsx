@@ -7,7 +7,7 @@ const Tours = () => {
   
   return (
     <>
-      <div id='hero-sub' className="hero-shop">
+      <div id='hero-sub' className="hero-tours">
           <div className="hero-content">
           <h1>Safari Tours, Courses and Events</h1>
         </div>
