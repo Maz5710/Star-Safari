@@ -36,7 +36,7 @@ const Post = () => {
   return (
     <div className='product-container'>
       <h2>Event Information</h2>
-      <div key={post.slug} className="post-container">
+      <div key={post.slug} id='col-3' className="post-container">
         <img src={getFeaturedImage(post)} alt="Post Featured Image"/>
         <a href={`#/post/${post.id}`}><button>BOOK NOW</button></a>
           <h4 className="title">{post.acf.title}</h4>

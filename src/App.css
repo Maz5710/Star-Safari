@@ -69,6 +69,7 @@ a {
   text-align: right;
   background: #010106;
   padding: 10px;
+  align-items: center;
 }
 
 #topnav a {
@@ -171,7 +172,7 @@ margin-right: auto;
 }
 
 .hero-shop {
-  background-image: url('/assets/hero-6.png');
+  background-image: url('/assets/hero-3.png');
 }
 
 .hero-content {
@@ -215,7 +216,7 @@ margin-right: auto;
   width: 60%;
   height: 1px;
   background-color: #EEEBEE;
-  margin-left: 45px;
+  margin-left: 75px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -242,8 +243,8 @@ margin-right: auto;
 }
 
 .section {
-  padding: 20px;
-  margin: 30px;
+  padding: 40px;
+  margin: 50px;
 }
 
 /* Buttons */
@@ -269,6 +270,7 @@ button:hover {
   color: #EEEBEE;
   font-size: 33px;
   position: relative;
+  text-align: right;
   top: 2px;
 }
 
@@ -306,12 +308,21 @@ button:hover {
 
 /* Home page  */
 #homeCont {
-  border-radius: 10px;
+  /* border-radius: 10px;
   border-color: #EEEBEE;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  margin-left: 30px; */
+
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 40px;
   margin-left: 30px;
+
+  
 }
 
 /* Feedback Section  */
@@ -320,7 +331,7 @@ button:hover {
 }
 
 .feedback p {
-  margin: 30px;
+  margin: 60px;
   font-style: italic;
   font-weight: lighter;
 }
@@ -340,7 +351,7 @@ button:hover {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  flex: 0 0 calc(30% - 20px); 
+  flex: 0 0 calc(45% - 20px); 
   width: 30%;
   border-radius: 5px;
   padding: 8px;
@@ -352,7 +363,7 @@ button:hover {
 
 .post-container img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: auto;
   object-fit: contain;
 }
 
@@ -375,7 +386,6 @@ button:hover {
   font-weight: 700;
 }
 
-
 /* About Page */
 .educators {
   display: flex;
@@ -392,7 +402,6 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* Tours Page */
 .section-product {
@@ -414,7 +423,6 @@ text-align: left;
   padding: 10px;
   margin-left: 30px;
 }
-
 
 .learn-container {
   color: #010106;
@@ -441,7 +449,6 @@ text-align: left;
 .learn-container:hover {
   transform: scale(1.1)
 }
-
 
 /* Contact Page */
 #contact-container {
@@ -514,7 +521,6 @@ iframe {
 
 #product-grid {
   border-radius: 10px;
-  /* text-align: center; */
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -532,7 +538,6 @@ iframe {
 
 /* Footer */
 #footer {
-
   display: flex;
   flex-direction: column;
   min-height: 20vh;
@@ -590,9 +595,17 @@ iframe {
   text-align: center;
 }
 
+
+@media (max-width: 768px) {
+  .post-container {
+    flex: 0 0 calc(90% - 20px); 
+    margin: 0px; 
+  }
+}
+
 /* Media queries */
 @media screen and (min-width: 768px) {
- 
+
   #menu {
     display: block;
     width: 75%;
@@ -609,7 +622,7 @@ iframe {
   #show-mobile-menu-button {
     display: none; 
     background: none;
-  }
+  }   
 }
 
 /* Media queries mobile */
@@ -627,7 +640,6 @@ iframe {
   font-weight: 500;
   letter-spacing: 2px;
   }
-  
 }
 
 

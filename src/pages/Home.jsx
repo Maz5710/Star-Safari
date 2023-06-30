@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Helmet }  from 'react-helmet'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
@@ -67,7 +68,7 @@ const Home = () => {
                 <div className="hero-content">
                     <h1>Journey to the stars</h1>
                     <h3>Unleash the magic of stargazing in Wairarapa</h3><br />
-                    <button id='hero-button'>BOOK <br/>YOUR EXPERIENCE <br /> NOW</button>
+                    <Link to="/shop"><button id='hero-button'>BOOK <br/>YOUR EXPERIENCE <br /> NOW</button></Link> 
                 </div>
             </div>
         </div>      
@@ -75,7 +76,7 @@ const Home = () => {
 
         <div className='feedback'>
             <h2>Feedback</h2><br></br>
-                <p><span id='left-quote'><FontAwesomeIcon icon={faQuoteLeft} /></span> Thanks Sam and Hari for creating an extraordinary place of learning! Discovered our Goldilocks planet, explored gravity, tides, Big Bang, galaxies, nebulae, ancient civilizations. Your passion sparked a fire in me. Grateful for this journey!<span id='right-quote'><FontAwesomeIcon icon={faQuoteRight} /></span></p>
+                <p><span id='left-quote'><FontAwesomeIcon icon={faQuoteLeft} /></span> <span></span>Thanks Sam and Hari for creating an extraordinary place of learning! Discovered our Goldilocks planet, explored gravity, tides, Big Bang, galaxies, nebulae, ancient civilizations. Your passion sparked a fire in me. Grateful for this journey!<span></span><span id='right-quote'><FontAwesomeIcon icon={faQuoteRight} /></span></p>
         </div>
 
             <div>

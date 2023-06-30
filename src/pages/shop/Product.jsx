@@ -39,6 +39,7 @@ const Product = (props) => {
         return <>Loading...</>
     }
     
+
   return (
     <>
       <div className='d-flex'>
@@ -48,10 +49,7 @@ const Product = (props) => {
             <h3>${product.prices.price}</h3>
         </div>
         </div>
-        <div className='product-container item-container'>
-            <h4 className='name'>{product.name}</h4>
-            <h3>${product.prices.price}</h3>
-        </div>
+
         <div id="product-description" dangerouslySetInnerHTML={{ __html: product.description}}/>
         <div id='tools'>
         <button
