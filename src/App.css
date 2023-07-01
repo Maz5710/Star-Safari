@@ -363,7 +363,7 @@ button:hover {
 
 .post-container img {
   max-width: 100%;
-  max-height: auto;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -623,6 +623,8 @@ iframe {
     display: none; 
     background: none;
   }   
+
+  
 }
 
 /* Media queries mobile */
