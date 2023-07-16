@@ -163,8 +163,8 @@ margin-right: auto;
   background-image: url('/assets/hero-3.png');
 }
 
-.hero-learning {
-  background-image: url('./assets/hero-4.png');
+.hero-learn {
+  background-image: url('/assets/hero-learn.png');
 }
 
 .hero-contact {

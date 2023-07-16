@@ -58,7 +58,7 @@ const Learn = () => {
   </Helmet>
 
     <div>      
-        <div id='hero-sub' className="hero-learning">
+        <div id='hero-sub' className="hero-learn">
           <div className="hero-content">
               <h1>Learn with us</h1>
           </div>
