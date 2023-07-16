@@ -55,9 +55,10 @@ const Learn = () => {
   <Helmet>
     <title>Learn page</title>
     <meta name="Star Safari Articles" content="Articles from Star Safari" />
-</Helmet>
-    <div>
-        <div id='hero-sub' className="hero-learn">
+  </Helmet>
+
+    <div>      
+        <div id='hero-sub' className="hero-learning">
           <div className="hero-content">
               <h1>Learn with us</h1>
           </div>

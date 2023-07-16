@@ -11,7 +11,7 @@ To meet the specific needs of both end users and content administrators, the web
 
 To support site administrators, comprehensive documentation is provided, offering guidance on managing and maintaining the website. Moreover, a training session is conducted for the client to familiarize them with the content management system, empowering them to efficiently utilise its features.
 
-The Star Safari website prioritizes CMS security best practices, ensuring the safety of user data and website functionality. The website seamlessly integrates into an online portfolio, showcasing its features and capabilities to a wider audience.
+The Star Safari website prioritises CMS security best practices, ensuring the safety of user data and website functionality. The website seamlessly integrates into an online portfolio, showcasing its features and capabilities to a wider audience.
 
 ## Mock-ups
 ![starsafari_desktop2](https://github.com/Maz5710/Star-Safari/assets/115663122/2d9461f9-3f10-420d-b9e5-30256d9d6340)
